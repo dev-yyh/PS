@@ -1,4 +1,4 @@
-# 메모리 초과 발생
+# 메모리 초과 발생 256MB 초과
 import sys
 input = sys.stdin.readline
 
@@ -12,4 +12,3 @@ if __name__ == '__main__':
 		dp[i][1] = (dp[i-1][0])%10
 
 	print((dp[n][0] + dp[n][1])%10)
-	
