@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-INF=5000 * 10000
+INF=5000 * 10000 # float('inf') 사용하면 overflow 때문에 비교안됨
 def solve(start):
     dist = [INF] * (N+1)
     dist[start] = 0
