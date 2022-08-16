@@ -51,3 +51,4 @@
 + RMQ: Range Min/Max Query (구간 최소/최대 질의)
 + RSQ: Range Sum Query (구간 합 질의)
 + SA: Simulated Anealing (모의 담금질 기법)
++ BT: BackTracking (백트랙킹)
