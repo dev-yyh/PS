@@ -1,3 +1,3 @@
-# ¹®Á¦
-## N°ú M(9) (S2)
+# ë¬¸ì œ
+## Nê³¼ M(9) (S2)
 https://www.acmicpc.net/problem/15663
