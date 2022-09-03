@@ -52,3 +52,4 @@
 + RSQ: Range Sum Query (구간 합 질의)
 + SA: Simulated Anealing (모의 담금질 기법)
 + BT: BackTracking (백트랙킹)
++ BS: Binary Search (이진 탐색)
