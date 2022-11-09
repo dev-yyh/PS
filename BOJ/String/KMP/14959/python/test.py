@@ -18,10 +18,21 @@ def pi(S, l):
                 i += 1
     return table
 
+def pi2(S, l):
+    table = [0] * (l)
+    j = 0
+    for i in range(1, l):
+        while j and S[i] != S[j]:
+            j = table[j-1]
+        if S[i] == S[j]:
+            j += 1
+            table[i] = j
+    return table
+
 if __name__ == '__main__':
     n = int(input())
     nums = list(map(int, input().split()))
-    table = pi(nums[::-1], n)
+    table = pi2(nums[::-1], n)
 
     total = float('inf')
     k = 0
